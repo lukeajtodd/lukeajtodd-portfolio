@@ -114,7 +114,7 @@ body {
     width: 3px;
     z-index: -1;
 
-    animation: sparkout 5s, sparkrise 3s ease-out 1;
+    animation: sparkout 4s, sparkrise 3s ease-out 1;
     animation-fill-mode: forwards;
   }
   .star {
@@ -155,7 +155,7 @@ header {
 /** SKILLS&WORK **/
 
 .work-skills {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   text-align: center;
   h2 {
     font-size: 3.8rem;
