@@ -133,6 +133,7 @@ body {
 /** HEADER **/
 
 header {
+  position: relative;
   margin: 3em 0 25em 0;
   width: 100%;
   text-align: center;
@@ -210,12 +211,31 @@ header {
 }
 
 @media screen and (min-width: 700px) {
+
+  header h1:after {
+    content: "";
+    background-image: url(assets/toppic.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: 110%;
+    background-position: top;
+    border-radius: 100%;
+    position: absolute;
+    top: -30%;
+    margin-left: 10px;
+  }
+
   .intro p, .contact p, .work-skills li {
     font-size: 1.6rem;
   }
 }
 
 @media screen and (min-width: 1000px) {
+  header h1:after {
+    width: 120px;
+    height: 120px;
+    top: -50%;
+  }
   .intro {
     width: 80%;
   }

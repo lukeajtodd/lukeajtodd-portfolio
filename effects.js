@@ -18,7 +18,7 @@ $(document).ready(function() {
   }
 
   function makeElem(elemType) {
-    var maxWidth = $(window).width();
+    var maxWidth = $(window).width() - 10;
     var maxHeight = $sparkleDiv.height();
     checkElemNum();
     if (elemType == "spark") {
