@@ -42,10 +42,9 @@ $(document).ready(function() {
     }
   }
 
-
-  if (time < 7 && time >= 17) {
+  if (time >= 17) {
     makeElem("star");
-  } else {
+  } else if (time < 17) {
     makeElem("spark");
   }
 
